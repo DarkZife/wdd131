@@ -1,47 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="W01 Assignment: Home Page">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Logan Dawes">
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdate.js" defer></script>
-    <title>WDD 131 - Dynamic Web Fundamentals - Your Name</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Logan Dawes</title>
+
 </head>
 <body>
 
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+
         <nav>
+
             <ul class="navigation">
                 <li><a href="https://www.linkedin.com/in/logan-dawes" title="LinkedIn">LinkedIn</a></li>
                 <li><a href="https://byupw.instructure.com/" title="Canvas">Canvas</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures" title="Scriptures">Scriptures</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ex/14?lang=eng&id=p13#p13" title="Scriptures">Scriptures</a></li>
                 <li><a href="finalproject.html" title="Final Project">Final Project</a></li>
             </ul>
+
         </nav>
+
     </header>
     
     <main>
+
         <h1>Logan S. Dawes</h1>
-        <section class="aboutme">
-            <h3>About Me</h3>
-            <p>test information</p> 
+
+        <section class="card">
+
+            <h2>About Me</h2>
+
+            <div class="about-me">
+
+                <p>My name is Logan, I was born in the US, and live in Utah. I'm currently working on improving my skills and learning more about software development because I enjoy computers and building creative projects.</p>
+                
+                <img src="images/Logan.jpg" alt="Picture of Logan">
+            </div>
+
+            <div class="location">
+
+                <h3>Utah, United States</h3>
+
+                <div class="location-content">
+
+                    <figure>
+                        <img src="images/us-flag.png" alt="Flag of the United States">
+                    </figure>
+
+                    <p>Utah is a beautiful state with a lot of great outdoor activities. Like hiking, camping, and exploring the many national parks and scenic areas.</p>
+
+                </div>
+                
+                
+            </div>
+
         </section>
-        <aside class="webdev">
-            <h3>Web Development Resources</h3>
-            <ul>
-                <li><a href="finalproject.html" title="Documentation">Documentation</a></li>
-                <li><a href="finalproject.html" title="Documentation">Documentation</a></li>
-                <li><a href="finalproject.html" title="Documentation">Documentation</a></li>
-            </ul>
-        </aside>
+
+        <section class="card">
+
+            <h2>Web Dev Resources</h2>
+
+            <div class="resources">
+                <ul>
+                    <li><a href="https://www.w3schools.com/htmlcss/" title="W3Schools">W3Schools</a></li>
+                    <li><a href="https://www.codecademy.com/catalog/language/html-css" title="Codecademy">Codecademy</a></li>
+                </ul>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
-        <p><span id="currentyear"> Name here, and state</span></p>
-        <p><span id="lastmodified"> Last modified: </span></p>
+        <p>&copy; <span id="currentyear"></span> Logan S. Dawes, Utah</p>
+        <p id="lastModified">Last modified:</p>
     </footer>  
     
 </body>
